@@ -1,0 +1,37 @@
+body {
+        scroll-behavior: smooth;
+      }
+
+      section {
+        scroll-margin-top: 80px;
+      }
+
+      .hover-scale:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+      }
+
+      /* WRAPPER LOGO (FIX TOTAL) */
+      .logo-box {
+        width: 56px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f8f9fa;
+        border-radius: 8px;
+        flex-shrink: 0;
+      }
+
+      .logo-box img {
+        max-width: 40px;
+        max-height: 40px;
+        object-fit: contain;
+      }
+      .profile-img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid rgb(107, 107, 107);
+      }
