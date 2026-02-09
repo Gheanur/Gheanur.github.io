@@ -7,6 +7,8 @@
         });
     }
 
+    // PORTOFOLIO
+
     loadHTML('navbar', 'layout/navbar.html');
     loadHTML('tentang', 'item/tentang.html');
     loadHTML('pendidikan', 'item/pendidikan.html');
